@@ -15,7 +15,7 @@ pipeline {
         }
         stage('Execute') {
             steps {
-                sh 'python demo4.py'
+                bat 'python demo4.py'
             }
         }
     }
