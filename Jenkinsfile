@@ -13,7 +13,7 @@ pipeline {
                 echo 'Testing..'
             }
         }
-        stage('Deploy') {
+        stage('Execute') {
             steps {
                 sh 'python demo4.py'
             }
