@@ -13,7 +13,7 @@ pipeline {
                 echo 'Testing..'
             }
         }
-        stage('Execute') {
+        stage('Run') {
             steps {
                 bat 'python demo4.py'
             }
